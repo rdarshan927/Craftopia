@@ -2,4 +2,8 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="orange">#E77A24</color>
+    <color name="price_orange">#FF7000</color>
+    <color name="location">#80000000</color>
+    <color name="bg">#DEDEDE</color>
 </resources>

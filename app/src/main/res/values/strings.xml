@@ -1,3 +1,36 @@
 <resources>
     <string name="app_name">Craftopia</string>
+
+<!--    Onboarding screen-->
+    <string name="app_des">It\'s time to look back in time for a change</string>
+    <string name="app_getStarted">GET STARTED</string>
+    <string name="app_onboard_next">NEXT</string>
+    <string name="app_onboard_1">Shop Unique Handmade Goods</string>
+    <string name="app_onboard_2">Support Local Artisans</string>
+    <string name="app_onboard_3">Easy and Secure Shopping Experience</string>
+    <string name="app_onboard_1c">Discover a curated selection of one-of-a-kind handcrafted
+items made by  talented artisans. From home decor to
+fashion accessories, find unique  pieces that reflect your
+personal style and support local creators</string>
+    <string name="app_onboard_2c">Every purchase you make helps support independent
+artisans and small  businesses. Learn about the stories
+behind the products and the makers,  and feel good
+knowing your shopping choices make a positive impact</string>
+    <string name="app_onboard_3c">Enjoy a seamless shopping experience with user-friendly
+navigation,  secure payment options, and fast shipping.
+Save your favorite items,  track your orders, and receive
+personalized recommendations tailored to  your tastes</string>
+
+
+<!--    Home screen-->
+    <string name="home_offer">Special Offers Available for these</string>
+    <string name="home_click">Click now</string>
+    <string name="home_category">Categories</string>
+
+
+<!--    products-->
+    <string name="product_decorasi">Decorasi Bohemia</string>
+    <string name="decorasi_price">Rs. 6,000</string>
+    <string name="decorasi_discount">Save Rs. 500</string>
+    <string name="decorasi_location">Colombo</string>
 </resources>
