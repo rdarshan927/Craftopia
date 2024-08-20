@@ -44,11 +44,13 @@
                     android:layout_marginTop="24dp"
                     android:layout_marginBottom="35dp"
                     android:ems="10"
+                    android:hint="Search from here"
                     android:inputType="text"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toTopOf="parent" />
+                    app:layout_constraintTop_toTopOf="parent"
+                    android:padding="16dp"/>
 
                 <ImageView
                     android:id="@+id/offersearchicon"
@@ -72,7 +74,7 @@
                 android:layout_marginLeft="35dp"
                 android:layout_marginTop="29dp"
                 android:layout_marginEnd="35dp"
-                app:srcCompat="@drawable/profile" />
+                app:srcCompat="@drawable/notification" />
         </LinearLayout>
 
         <ScrollView
@@ -211,12 +213,13 @@
                     android:orientation="horizontal">
 
                     <LinearLayout
+                        android:id="@+id/tree"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginHorizontal="5dp"
+                        android:background="@color/white"
                         android:orientation="vertical"
-                        android:padding="10dp"
-                        android:background="@color/white">
+                        android:padding="10dp">
 
                         <ImageView
                             android:id="@+id/product3_decorasi"
@@ -423,6 +426,7 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:background="@color/orange"
+            android:gravity="center_vertical"
             android:orientation="horizontal"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
@@ -455,12 +459,12 @@
                 app:srcCompat="@drawable/cartnav" />
 
             <ImageView
-                android:id="@+id/offerorder"
+                android:id="@+id/offerprofilenav"
                 android:layout_width="5dp"
-                android:layout_height="wrap_content"
+                android:layout_height="48dp"
                 android:layout_margin="3dp"
                 android:layout_weight="1"
-                app:srcCompat="@drawable/cartnav" />
+                app:srcCompat="@drawable/profilenav" />
         </LinearLayout>
 
     </androidx.constraintlayout.widget.ConstraintLayout>

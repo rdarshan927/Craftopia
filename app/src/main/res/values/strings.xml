@@ -1,10 +1,11 @@
 <resources>
     <string name="app_name">Craftopia</string>
 
-<!--    Onboarding screen-->
+    <!--    Onboarding screen-->
     <string name="app_des">It\'s time to look back in time for a change</string>
     <string name="app_getStarted">GET STARTED</string>
     <string name="app_onboard_next">NEXT</string>
+    <string name="continu">CONTINUE</string>
     <string name="app_onboard_1">Shop Unique Handmade Goods</string>
     <string name="app_onboard_2">Support Local Artisans</string>
     <string name="app_onboard_3">Easy and Secure Shopping Experience</string>
@@ -22,15 +23,46 @@ Save your favorite items,  track your orders, and receive
 personalized recommendations tailored to  your tastes</string>
 
 
-<!--    Home screen-->
+    <!--    Home screen-->
     <string name="home_offer">Special Offers Available for these</string>
     <string name="home_click">Click now</string>
     <string name="home_category">Categories</string>
 
 
-<!--    products-->
+    <!--    products-->
     <string name="product_decorasi">Decorasi Bohemia</string>
     <string name="decorasi_price">Rs. 6,000</string>
     <string name="decorasi_discount">Save Rs. 500</string>
     <string name="decorasi_location">Colombo</string>
+
+    <!--    product in-->
+    <string name="addtocart">Add to Cart</string>
+    <string name="buynow">Buy Now</string>
+    <string name="product_description">Handicraft big metal iron tree wall
+hanging decor with led light gold for
+home living room</string>
+    <string name="delivery">Delivered within 7 days from ordering</string>
+
+
+    <!--    products cart-->
+    <string name="cartproduct1">Violin - Musical Instrument</string>
+    <string name="branded">Branded</string>
+    <string name="approx">Approximate Delivery within 10 days</string>
+    <string name="madein">Made in China</string>
+    <string name="store">A2D Store</string>
+
+
+    <!--    profile page-->
+    <string name="profilewelcome">only valid for new customers! SignUp now &amp; Enjoy the offer!!!</string>
+    <string name="signup">SignUp</string>
+    <string name="signin">SignIn</string>
+    <string name="qa">Questions</string>
+    <string name="help">Help Center</string>
+    <string name="favourites">Saved Items</string>
+    <string name="order">Orders</string>
+    <string name="review">Reviews</string>
+
+    <!--    speakable texts-->
+    <string name="scroll">This is a scroll view with some content</string>
+    <string name="product_image">This is a product image</string>
 </resources>

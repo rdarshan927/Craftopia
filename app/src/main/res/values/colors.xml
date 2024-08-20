@@ -6,4 +6,9 @@
     <color name="price_orange">#FF7000</color>
     <color name="location">#80000000</color>
     <color name="bg">#DEDEDE</color>
+    <color name="button">#F37511</color>
+    <color name="cartgray">#808080</color>
+    <color name="profileofferbg">#E8C046</color>
+    <color name="offersignin">#8D312D</color>
+    <color name="otherbg">#D0D0D0</color>
 </resources>

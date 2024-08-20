@@ -3,6 +3,7 @@ package com.rd927.craftopia
 import android.content.Intent
 import android.os.Bundle
 import android.widget.Button
+import android.widget.ImageView
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
@@ -21,8 +22,20 @@ class home : AppCompatActivity() {
 
         val button = findViewById<Button>(R.id.homeoffer)
         button.setOnClickListener {
-            val intent = Intent(this, offer::class.java) // Replace NextActivity with the actual name of the activity you want to navigate to
-            startActivity(intent)
+            startActivity(Intent(this, offer::class.java))
         }
+
+        findViewById<ImageView>(R.id.homenavtab).setOnClickListener {
+            startActivity(Intent(this, home::class.java))
+        }
+
+        findViewById<ImageView>(R.id.homenavcart).setOnClickListener {
+            startActivity(Intent(this, cart::class.java))
+        }
+
+        findViewById<ImageView>(R.id.profilenavtab).setOnClickListener {
+            startActivity(Intent(this, profile::class.java))
+        }
+
     }
 }
